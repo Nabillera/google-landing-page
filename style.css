@@ -1,0 +1,234 @@
+* {
+    font-family: arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    padding: 5px;
+}
+
+#header-mini-div {
+    width: 218px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-links {
+    font-size: 13px;
+    color: rgba(0, 0, 0, .87);
+    cursor: pointer;
+}
+
+.header-links:hover {
+    text-decoration: underline;
+}
+
+#header-app-grid {
+    width: 24px;
+    height: 24px;
+    border-radius: 21px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: white;
+}
+
+#header-app-grid:hover {
+    background-color: rgb(223, 225, 229);
+    border-color: rgb(223, 225, 229);
+}
+
+#header-profile-pic {
+    width: 32px;
+    border-radius: 22px;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+#header-profile-pic:hover {
+    border-color: rgb(223, 225, 229);
+}
+
+#main-container,
+#logo-search-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-search-bar-container {
+    position: relative;
+}
+
+#search-bar-container {
+    display: flex;
+    margin-top: 26px;
+    margin-bottom: 19px;
+    position: relative;
+}
+
+#search-bar {
+    width: 534px;
+    height: 44px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    border-color: rgb(223, 225, 229);
+    font-size: 16px;
+    padding-left: 47px;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#search-bar:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+
+#search-icon-div {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 48px;
+    left: 15px;
+}
+
+#search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#search-icons-div {
+    width: 80px;
+    height: 46px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 6px;
+    cursor: pointer;
+}
+
+#voice-search-icon {
+    height: 20px;
+}
+
+#google-lens-icon {
+    width: 24px;
+    height: 24px;
+}
+
+#voice-search-icon-title,
+#google-lens-icon-title {
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #202124;
+    color: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .87);
+    padding: 8px;
+    position: absolute;
+    top: 170px;
+    right: 20px;
+    visibility: hidden;
+}
+#google-lens-icon-title{
+    right: -23px;
+}
+
+
+button {
+    background-color: rgb(248, 249, 250);
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(248, 249, 250);
+    color: rgb(60, 64, 67);
+    font-size: 14px;
+    height: 34px;
+    margin-top: 11px;
+    margin-bottom: 13px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: rgb(223, 225, 229);
+    box-shadow: 0 1px 1px rgba(32, 33, 36, .2);
+}
+
+#language-paragraph-container {
+    display: flex;
+    justify-content: center;
+    color: rgb(77, 81, 86);
+    font-size: 13px;
+    margin-top: 14px
+}
+
+#footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+}
+
+#footer-upper, #footer-lower{
+    background-color: rgb(245, 245, 245);
+    color: rgb(112, 117, 122);
+}
+
+#footer-upper{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 30px;
+    height: 48px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(218, 220, 224);
+}
+
+#footer-lower{
+    height: 46px;
+    display: flex;
+    font-size: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+#footer-lower-div1, #footer-lower-div2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer-lower-div1{
+    width: 400px;
+}
+
+#footer-lower-div2{
+    width: 225px;
+}
+
+.footer-links:hover{
+    text-decoration: underline;
+}
